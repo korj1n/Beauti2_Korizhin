@@ -103,28 +103,28 @@
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button Content="Управление услугами" HorizontalAlignment="Left" Margin="21,39,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="151" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+            <Button Content="Управление услугами" HorizontalAlignment="Left" Margin="21,39,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="151" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton1_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
                 <Button.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="5"/>
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button Content="Управление клиентами" HorizontalAlignment="Left" Margin="15,39,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="159" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+            <Button Content="Управление клиентами" HorizontalAlignment="Left" Margin="15,39,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="159" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton2_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
                 <Button.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="5"/>
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button Content="Управление записями" HorizontalAlignment="Left" Margin="15,39,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="159" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+            <Button Content="Управление записями" HorizontalAlignment="Left" Margin="15,39,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="159" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton3_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
                 <Button.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="5"/>
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button Content="Управление продукцией" HorizontalAlignment="Left" Margin="7,39,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="174" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+            <Button Content="Управление продукцией" HorizontalAlignment="Left" Margin="7,39,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="174" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton4_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
                 <Button.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="5"/>
