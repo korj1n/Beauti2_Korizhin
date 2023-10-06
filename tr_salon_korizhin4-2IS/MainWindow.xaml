@@ -6,13 +6,132 @@
         xmlns:local="clr-namespace:tr_salon_korizhin4_2IS"
         mc:Ignorable="d"
          Title="MainPage" Height="819.211" Width="997.397" HorizontalContentAlignment="Center" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2"
+                       SnapsToDevicePixels="true"
+                       Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"
+                       StrokeDashArray="1 2"
+                       StrokeThickness="1" />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background"
+                     Color="#FFDDDDDD" />
+        <SolidColorBrush x:Key="Button.Static.Border"
+                     Color="#FF707070" />
+        <SolidColorBrush x:Key="Button.MouseOver.Background"
+                     Color="#FFBEE6FD" />
+        <SolidColorBrush x:Key="Button.MouseOver.Border"
+                     Color="#FF3C7FB1" />
+        <SolidColorBrush x:Key="Button.Pressed.Background"
+                     Color="#FFC4E5F6" />
+        <SolidColorBrush x:Key="Button.Pressed.Border"
+                     Color="#FF2C628B" />
+        <SolidColorBrush x:Key="Button.Disabled.Background"
+                     Color="#FFF4F4F4" />
+        <SolidColorBrush x:Key="Button.Disabled.Border"
+                     Color="#FFADB2B5" />
+        <SolidColorBrush x:Key="Button.Disabled.Foreground"
+                     Color="#FF838383" />
+
+        <Style x:Key="DefaultButtonStyle"
+           TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}" />
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}" />
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}" />
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="Padding" Value="1" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border"
+                    Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter"
+                                Margin="{TemplateBinding Padding}"
+                                HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                Focusable="False"
+                                RecognizesAccessKey="True"
+                                SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter TargetName="border" Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" />
+                            </Trigger>
+                            <!--<Trigger Property="IsMouseOver" Value="true">
+                <Setter TargetName="border" Property="Background" Value="{StaticResource Button.MouseOver.Background}" />
+                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource Button.MouseOver.Border}" />
+              </Trigger>-->
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource Button.Pressed.Background}" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource Button.Pressed.Border}" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource Button.Disabled.Background}" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource Button.Disabled.Border}" />
+                                <Setter TargetName="contentPresenter" Property="TextElement.Foreground" Value="{StaticResource Button.Disabled.Foreground}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
     <Grid>
-        <StackPanel HorizontalAlignment="Left" Height="661" Margin="10,97,0,0" VerticalAlignment="Top" Width="184"/>
+
+
         <Rectangle Fill="#FFFF4A6D" HorizontalAlignment="Left" Height="790" VerticalAlignment="Top" Width="214"/>
-
         <Rectangle Fill="White" HorizontalAlignment="Left" Height="64" Margin="15,13,0,0" VerticalAlignment="Top" Width="182" RadiusY="17" RadiusX="17"/>
-        <Image Source="beauty_logo.ico" HorizontalAlignment="Left" Height="50" Margin="24,21,0,0" VerticalAlignment="Top" Width="50" />
-        <TextBlock HorizontalAlignment="Left" Margin="80,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Tahoma"><Run Text="Салон"/><Run Text=" красоты"/><LineBreak/><Run Text="Бархатнын бровки"/></TextBlock>
-
+        <Image Source="Resources/beauty_logo.png" HorizontalAlignment="Left" Height="45" Margin="28 23 0 0" VerticalAlignment="Top" Width="45" />
+        <TextBlock HorizontalAlignment="Left" Margin="80,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Tahoma" TextAlignment="Center"><Run Text="Салон"/><Run Text=" красоты"/><LineBreak/><Run Text="Бархатнын бровки"/></TextBlock>
+        <StackPanel HorizontalAlignment="Left" Height="661" Margin="10,97,0,0" VerticalAlignment="Top" Width="184">
+            <Button Content="Главная / FAQ" HorizontalAlignment="Left" Margin="32,80,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="120" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Content="Управление услугами" HorizontalAlignment="Left" Margin="21,39,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="151" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Content="Управление клиентами" HorizontalAlignment="Left" Margin="15,39,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="159" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Content="Управление записями" HorizontalAlignment="Left" Margin="15,39,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="159" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Content="Управление продукцией" HorizontalAlignment="Left" Margin="7,39,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="174" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>
