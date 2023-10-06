@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tr_salon_korizhin4_2IS"
         mc:Ignorable="d"
-        Title="MainPage" Height="450" Width="800">
+         Title="MainPage" Height="819.211" Width="997.397" HorizontalContentAlignment="Center" ResizeMode="NoResize">
     <Grid>
-        
+        <StackPanel HorizontalAlignment="Left" Height="661" Margin="10,97,0,0" VerticalAlignment="Top" Width="184"/>
+        <Rectangle Fill="#FFFF4A6D" HorizontalAlignment="Left" Height="790" VerticalAlignment="Top" Width="214"/>
+
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="64" Margin="15,13,0,0" VerticalAlignment="Top" Width="182" RadiusY="17" RadiusX="17"/>
+        <Image Source="beauty_logo.ico" HorizontalAlignment="Left" Height="50" Margin="24,21,0,0" VerticalAlignment="Top" Width="50" />
+        <TextBlock HorizontalAlignment="Left" Margin="80,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Tahoma"><Run Text="Салон"/><Run Text=" красоты"/><LineBreak/><Run Text="Бархатнын бровки"/></TextBlock>
+
     </Grid>
 </Window>
