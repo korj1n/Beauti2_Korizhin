@@ -90,12 +90,11 @@
 
     </Window.Resources>
     <Grid>
-
-
+        <Frame x:Name="MainFrame"  NavigationUIVisibility="Hidden" Margin="214,0,0,0"/>
         <Rectangle Fill="#FFFF4A6D" HorizontalAlignment="Left" Height="790" VerticalAlignment="Top" Width="214"/>
-        <Rectangle Fill="White" HorizontalAlignment="Left" Height="64" Margin="15,13,0,0" VerticalAlignment="Top" Width="182" RadiusY="17" RadiusX="17"/>
-        <Image Source="Resources/beauty_logo.png" HorizontalAlignment="Left" Height="45" Margin="28 23 0 0" VerticalAlignment="Top" Width="45" />
-        <TextBlock HorizontalAlignment="Left" Margin="80,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Tahoma" TextAlignment="Center"><Run Text="Салон"/><Run Text=" красоты"/><LineBreak/><Run Text="Бархатнын бровки"/></TextBlock>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="57" Margin="25,36,0,0" VerticalAlignment="Top" Width="163" RadiusY="15" RadiusX="15"/>
+        <Image Source="Resources/beauty_logo.png" HorizontalAlignment="Left" Height="40" Margin="37,45,0,0" VerticalAlignment="Top" Width="40" />
+        <TextBlock HorizontalAlignment="Left" Margin="83,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Tahoma" TextAlignment="Center" Height="26" Width="92" FontSize="10"><Run Text="Салон"/><Run Text=" красоты"/><LineBreak/><Run Text="Бархатны"/><Run Text="е"/><Run Text=" бровки"/></TextBlock>
         <StackPanel HorizontalAlignment="Left" Height="661" Margin="10,97,0,0" VerticalAlignment="Top" Width="184">
             <Button Content="Главная / FAQ" HorizontalAlignment="Left" Margin="32,80,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="120" Background="White" BorderBrush="{x:Null}" Height="34" Click="PageButton_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
                 <Button.Resources>
@@ -133,5 +132,6 @@
                 </Button.Resources>
             </Button>
         </StackPanel>
+       
     </Grid>
 </Window>

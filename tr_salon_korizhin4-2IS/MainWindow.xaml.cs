@@ -23,6 +23,8 @@ namespace tr_salon_korizhin4_2IS
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.NavigationUIVisibility = NavigationUIVisibility.Hidden;
+            MainFrame.Navigate(new Uri("Page1.xaml", UriKind.Relative));
         }
         private void PageButton_Click(object sender, RoutedEventArgs e)
         {

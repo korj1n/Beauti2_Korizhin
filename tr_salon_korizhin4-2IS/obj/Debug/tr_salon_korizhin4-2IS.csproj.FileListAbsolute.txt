@@ -13,3 +13,5 @@ C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj
 C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\tr_salon_korizhin4-2IS.csproj.CoreCompileInputs.cache
 C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\tr_salon_korizhin4-2IS.exe
 C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\tr_salon_korizhin4-2IS.pdb
+C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\Page1.g.cs
+C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\Page1.baml
