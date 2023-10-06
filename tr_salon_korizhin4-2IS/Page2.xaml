@@ -12,6 +12,28 @@
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="64" VerticalAlignment="Top" Width="777"/>
         <TextBlock HorizontalAlignment="Left" Margin="159,28,0,0" TextWrapping="Wrap" Text="в" VerticalAlignment="Top"/>
         <Label Content="Управление услугами" HorizontalAlignment="Left" Margin="16,18,0,0" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="16"/>
-
+        <StackPanel Orientation="Horizontal" Margin="0,69,0,629">
+            <Button Content="Редактировать" HorizontalAlignment="Left" Margin="39,29,0,0" VerticalAlignment="Top"   Width="120" Background="White" BorderBrush="#FF838383" Height="34" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Content="Добавить" HorizontalAlignment="Left" Margin="167,29,0,0" VerticalAlignment="Top"   Width="120" Background="White" BorderBrush="#FF838383" Height="34"  Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Content="Удалить" HorizontalAlignment="Left" Margin="165,29,0,0" VerticalAlignment="Top"   Width="120" Background="White" BorderBrush="#FF838383" Height="34"  Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
     </Grid>
 </Page>
