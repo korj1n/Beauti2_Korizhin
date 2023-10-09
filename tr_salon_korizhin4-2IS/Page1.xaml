@@ -9,7 +9,7 @@
 
     <Grid>
         <Rectangle Fill="#FFE1E4FF" HorizontalAlignment="Left" Height="618" Margin="60,75,0,0" Stroke="#FFD1D1D1" VerticalAlignment="Top" Width="654" RadiusY="41.5" RadiusX="41.5"/>
-        <Image Source="Resources/beauty_logo.png" HorizontalAlignment="Left" Height="369" VerticalAlignment="Top" Width="369" Margin="194,203,0,0" Opacity="0.115" />
+        <Image Source="Resources/beauty_logo.png" HorizontalAlignment="Left" Height="370" VerticalAlignment="Top" Width="368" Margin="196,204,0,0" Opacity="0.115" />
         <TextBlock HorizontalAlignment="Left" Margin="117,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="24" Width="537"><Run Text="Добро пожаловать в приложение для салона красоты, которое позволит:"/><LineBreak/><InlineUIContainer>
                 
             </InlineUIContainer><LineBreak/><Run Text="• просмотр списка услуг,"/><LineBreak/><Run Text="• добавление/удаление/редактирование данных об услугах,"/><LineBreak/><Run Text="• работа с дополнительными изображениями к услугам,"/><LineBreak/><Run Text="• запись клиента на услугу,"/><LineBreak/><Run Text="• управление ближайшими записями на услуги салона красоты."/></TextBlock>
