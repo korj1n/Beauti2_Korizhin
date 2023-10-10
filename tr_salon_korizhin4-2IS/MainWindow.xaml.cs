@@ -36,7 +36,7 @@ namespace tr_salon_korizhin4_2IS
         }
         private void PageButton2_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new Uri("Page1.xaml", UriKind.Relative));
+            MainFrame.Navigate(new Uri("Page2.xaml", UriKind.Relative));
         }
         private void PageButton3_Click(object sender, RoutedEventArgs e)
         {

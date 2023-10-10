@@ -9,7 +9,6 @@
        Title="Page2" Height="790" Width="777" Foreground="{x:Null}">
 
     <Grid>
-       
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="64" VerticalAlignment="Top" Width="777"/>
         <TextBlock HorizontalAlignment="Left" Margin="159,28,0,0" TextWrapping="Wrap" Text="в" VerticalAlignment="Top"/>
         <Label Content="Управление услугами" HorizontalAlignment="Left" Margin="16,18,0,0" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="16"/>
@@ -36,13 +35,14 @@
                 </Button.Resources>
             </Button>
         </StackPanel>
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="647,17,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="120" Background="White" BorderBrush="#FFA6A6A6" Height="34" Click="Button_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="633,14,0,0" VerticalAlignment="Top"  Style="{DynamicResource DefaultButtonStyle}" Width="120" Background="White" BorderBrush="#FFA6A6A6" Height="34" Click="Button_Click" Focusable="False" FontFamily="Tahoma" FontSize="14" BorderThickness="1" Padding="1" >
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="5"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Frame x:Name="MainFrame"  NavigationUIVisibility="Hidden" Margin="0,166,0,0"/>
+
+        <Frame x:Name="MainFrame"  NavigationUIVisibility="Hidden" Margin="0,161,0,0"/>
     </Grid>
 </Page>
