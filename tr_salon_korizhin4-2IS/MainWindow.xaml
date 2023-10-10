@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tr_salon_korizhin4_2IS"
         mc:Ignorable="d"
-         Title="MainPage" Height="819.211" Width="997.397" HorizontalContentAlignment="Center" ResizeMode="NoResize">
+         Title="MainPage" Height="819.211" Width="997.397" HorizontalContentAlignment="Center">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -90,8 +90,9 @@
 
     </Window.Resources>
     <Grid>
-        <Frame x:Name="MainFrame"  NavigationUIVisibility="Hidden" Margin="214,0,0,0"/>
-        <Rectangle Fill="#FFFF4A6D" HorizontalAlignment="Left" Height="790" VerticalAlignment="Top" Width="214"/>
+
+        <Frame x:Name="MainFrame"  NavigationUIVisibility="Hidden"  Margin="219,0,0,0"/>
+        <Rectangle Fill="#FFFF4A6D" HorizontalAlignment="Left" Width="214" Margin="0,-250,0,-360" Grid.ColumnSpan="2"/>
         <Rectangle Fill="White" HorizontalAlignment="Left" Height="57" Margin="25,36,0,0" VerticalAlignment="Top" Width="163" RadiusY="15" RadiusX="15"/>
         <Image Source="Resources/beauty_logo.png" HorizontalAlignment="Left" Height="40" Margin="37,45,0,0" VerticalAlignment="Top" Width="40" />
         <TextBlock HorizontalAlignment="Left" Margin="83,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Tahoma" TextAlignment="Center" Height="26" Width="92" FontSize="10"><Run Text="Салон"/><Run Text=" красоты"/><LineBreak/><Run Text="Бархатны"/><Run Text="е"/><Run Text=" бровки"/></TextBlock>
@@ -132,6 +133,6 @@
                 </Button.Resources>
             </Button>
         </StackPanel>
-       
+
     </Grid>
 </Window>

@@ -16,20 +16,13 @@ using System.Windows.Shapes;
 namespace tr_salon_korizhin4_2IS
 {
     /// <summary>
-    /// Логика взаимодействия для Page2.xaml
+    /// Логика взаимодействия для Services.xaml
     /// </summary>
-    public partial class Page2 : Page
+    public partial class Services : Page
     {
-        public Page2()
+        public Services()
         {
             InitializeComponent();
-            MainFrame.NavigationUIVisibility = NavigationUIVisibility.Hidden;
-            MainFrame.Navigate(new Uri("Page2.xaml", UriKind.Relative));
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Navigate(new Uri("MainWindow.xaml", UriKind.Relative));
         }
     }
 }
