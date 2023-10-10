@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:tr_salon_korizhin4_2IS"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Services">
+      Title="Services" Margin="0,-62,0,0">
 
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
         <Rectangle Fill="#FFE1E4FF" RenderTransformOrigin="0.5,0.5" Margin="-402,-224,-401,153" Width="803" Height="71">
