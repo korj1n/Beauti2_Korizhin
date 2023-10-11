@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:tr_salon_korizhin4_2IS"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="dummy__">
+      Title="dummy__" VerticalAlignment="Center">
 
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="89,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="36" Height="185" FontFamily="Tahoma" Width="281"><Run Text="Страница находит"/><Run Text="ся"/><Run Text=" "/><Run Text="в"/><Run Text=" разработке подождите"/><Run Text=" :)"/></TextBlock>

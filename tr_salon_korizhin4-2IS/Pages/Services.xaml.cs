@@ -23,6 +23,12 @@ namespace tr_salon_korizhin4_2IS
         public Services()
         {
             InitializeComponent();
+            MainFrame.NavigationUIVisibility = NavigationUIVisibility.Hidden;
         }
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+   
     }
 }

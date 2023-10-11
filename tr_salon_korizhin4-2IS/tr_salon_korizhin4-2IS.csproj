@@ -139,7 +139,7 @@
     <Resource Include="Resources\beauty_logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\beauty_logo.ico" />
+    <Resource Include="Resources\beauty_logo.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

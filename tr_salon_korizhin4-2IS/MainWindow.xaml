@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tr_salon_korizhin4_2IS"
         mc:Ignorable="d"
-         Title="MainPage" Height="819.211" Width="997.397" HorizontalContentAlignment="Center">
+         Title="MainPage" MinHeight="819.211" MinWidth="997.397" HorizontalContentAlignment="Center">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
