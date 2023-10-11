@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace tr_salon_korizhin4_2IS
+namespace tr_salon_korizhin4_2IS.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для Page1.xaml
+    /// Логика взаимодействия для Info.xaml
     /// </summary>
-    public partial class Page1 : Page
+    public partial class Info : Page
     {
-        public Page1()
+        public Info()
         {
             InitializeComponent();
         }

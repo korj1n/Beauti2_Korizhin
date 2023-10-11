@@ -1,0 +1,16 @@
+﻿<Page x:Class="tr_salon_korizhin4_2IS.dummy__"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:tr_salon_korizhin4_2IS"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="dummy__">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="89,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="36" Height="185" FontFamily="Tahoma" Width="281"><Run Text="Страница находит"/><Run Text="ся"/><Run Text=" "/><Run Text="в"/><Run Text=" разработке подождите"/><Run Text=" :)"/></TextBlock>
+        <Image HorizontalAlignment="Right" Height="212" Margin="0,0,115,0" VerticalAlignment="Center" Width="213" Source="Resources/1839198.png"/>
+
+    </Grid>
+</Page>

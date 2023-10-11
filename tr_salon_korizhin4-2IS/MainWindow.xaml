@@ -91,7 +91,7 @@
     </Window.Resources>
     <Grid>
 
-        <Frame x:Name="MainFrame"  NavigationUIVisibility="Hidden"  Margin="219,0,0,0"/>
+        <Frame x:Name="MainFrame"  NavigationUIVisibility="Hidden"  Margin="214,0,0,0"/>
         <Rectangle Fill="#FFFF4A6D" HorizontalAlignment="Left" Width="214" Margin="0,-250,0,-360" Grid.ColumnSpan="2"/>
         <Rectangle Fill="White" HorizontalAlignment="Left" Height="57" Margin="25,36,0,0" VerticalAlignment="Top" Width="163" RadiusY="15" RadiusX="15"/>
         <Image Source="Resources/beauty_logo.png" HorizontalAlignment="Left" Height="40" Margin="37,45,0,0" VerticalAlignment="Top" Width="40" />
