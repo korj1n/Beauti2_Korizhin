@@ -29,6 +29,19 @@ namespace tr_salon_korizhin4_2IS
         {
            
         }
-   
+
+        private void Edit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Add_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Delete_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
