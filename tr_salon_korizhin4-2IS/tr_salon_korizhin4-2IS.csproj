@@ -78,10 +78,16 @@
     <Compile Include="dummy^%29.xaml.cs">
       <DependentUpon>dummy^%29.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Services\Add.xaml.cs">
+      <DependentUpon>Add.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Services\Edit.xaml.cs">
+      <DependentUpon>Edit.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Info.xaml.cs">
       <DependentUpon>Info.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Services.xaml.cs">
+    <Compile Include="Pages\Services\Services.xaml.cs">
       <DependentUpon>Services.xaml</DependentUpon>
     </Compile>
     <Page Include="dummy^%29.xaml">
@@ -100,11 +106,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\Services\Add.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Services\Edit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Info.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Services.xaml">
+    <Page Include="Pages\Services\Services.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

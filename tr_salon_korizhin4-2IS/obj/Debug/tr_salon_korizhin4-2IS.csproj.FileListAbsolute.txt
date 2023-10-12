@@ -13,9 +13,13 @@ C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj
 C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\tr_salon_korizhin4-2IS.csproj.CoreCompileInputs.cache
 C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\tr_salon_korizhin4-2IS.exe
 C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\tr_salon_korizhin4-2IS.pdb
-C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\Pages\Services.g.cs
-C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\Pages\Services.baml
 C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\dummy^).g.cs
 C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\Pages\Info.g.cs
 C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\dummy^).baml
 C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\Pages\Info.baml
+C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\Pages\Services\Add.g.cs
+C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\Pages\Services\Edit.g.cs
+C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\Pages\Services\Services.g.cs
+C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\Pages\Services\Add.baml
+C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\Pages\Services\Edit.baml
+C:\Users\comp0703\source\repos\tr_salon_korizhin4-2IS\tr_salon_korizhin4-2IS\obj\Debug\Pages\Services\Services.baml
